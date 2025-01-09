@@ -1,0 +1,25 @@
+{
+  "name": "raw-node-api-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=staging nodemon index",
+    "production": "NODE_ENV=production nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "S M Masrafi <smmasrafi01@gmail.com>",
+  "license": "UNLICENSED",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.4.2"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
